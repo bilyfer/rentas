@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Win.Rentas", "Win.Rentas\Win.Rentas.csproj", "{97091A4E-68BF-4A36-AE24-9D1B7B78FA2D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Win.Rentas", "Win.Rentas\Win.Rentas.csproj", "{0FA4BEFE-1BAF-4F10-A52A-97E04862F061}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BL.Rentas", "BL.Rentas\BL.Rentas.csproj", "{04879E3A-EBE5-40E6-92CA-58293B8D72EC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{97091A4E-68BF-4A36-AE24-9D1B7B78FA2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{97091A4E-68BF-4A36-AE24-9D1B7B78FA2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{97091A4E-68BF-4A36-AE24-9D1B7B78FA2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{97091A4E-68BF-4A36-AE24-9D1B7B78FA2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FA4BEFE-1BAF-4F10-A52A-97E04862F061}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FA4BEFE-1BAF-4F10-A52A-97E04862F061}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FA4BEFE-1BAF-4F10-A52A-97E04862F061}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FA4BEFE-1BAF-4F10-A52A-97E04862F061}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04879E3A-EBE5-40E6-92CA-58293B8D72EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04879E3A-EBE5-40E6-92CA-58293B8D72EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04879E3A-EBE5-40E6-92CA-58293B8D72EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04879E3A-EBE5-40E6-92CA-58293B8D72EC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
