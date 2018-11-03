@@ -16,6 +16,7 @@ namespace Win.Rentas
     {
         ProductosBL _productos;
         CategoriasBL _categorias;
+        TiposBL _tiposBL;
 
         public FormProductos()
         {
@@ -26,6 +27,9 @@ namespace Win.Rentas
 
             _categorias = new CategoriasBL();
             listaCategoriasBindingSource.DataSource = _categorias.ObtenerCategorias();
+
+            _tiposBL = new TiposBL();
+            listaTiposBindingSource.DataSource = _tiposBL.ObtenerTipos();
         }
 
         private void listaProductosBindingNavigatorSaveItem_Click(object sender, EventArgs e)
@@ -107,8 +111,8 @@ namespace Win.Rentas
 
         private void toolStripButtonCancelar_Click(object sender, EventArgs e)
         {
+            _productos.CancelarCambios();
             DeshabilitarHabilitarBotones(true);
-            Eliminar(0);
         }
 
         private void FormProductos_Load(object sender, EventArgs e)

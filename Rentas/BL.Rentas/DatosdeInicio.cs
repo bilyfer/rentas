@@ -34,6 +34,26 @@ namespace BL.Rentas
             categoria4.Descripcion = "Educativos";
             contexto.Categorias.Add(categoria4);
 
+            var tipo1 = new Tipo();
+            tipo1.Descripcion = "Consolas";
+            contexto.Tipos.Add(tipo1);
+
+            var tipo2 = new Tipo();
+            tipo2.Descripcion = "Video Juegos";
+            contexto.Tipos.Add(tipo2);
+
+            var tipo3 = new Tipo();
+            tipo3.Descripcion = "Accesorios";
+            contexto.Tipos.Add(tipo3);
+
+            var cliente1 = new Cliente();
+            cliente1.Nombre = "Steve Rogers";
+            contexto.Clientes.Add(cliente1);
+
+            var cliente2 = new Cliente();
+            cliente2.Nombre = "Tony Stark";
+            contexto.Clientes.Add(cliente2);
+
             base.Seed(contexto);
         }
     }

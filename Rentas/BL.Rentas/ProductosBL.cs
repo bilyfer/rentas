@@ -24,6 +24,15 @@ namespace BL.Rentas
             return ListaProductos;
         }
 
+        public void CancelarCambios()
+        {
+            foreach (var item in _contexto.ChangeTracker.Entries())
+            {
+                item.State = EntityState.Unchanged;
+                item.Reload();
+            }
+        }
+
         public Resultado GuardarProducto(Producto producto)
         {        
             var resultado = Validar(producto);
@@ -63,6 +72,14 @@ namespace BL.Rentas
             var resultado = new Resultado();
             resultado.Exitoso = true;
 
+            if (producto == null)
+            {
+                resultado.Mensaje = "Agregue un producto valido";
+                resultado.Exitoso = false;
+
+                return resultado;
+            }
+
             if (string.IsNullOrEmpty(producto.Descripcion) == true)
             {
                 resultado.Mensaje = "Ingrese una descripción";
@@ -78,6 +95,12 @@ namespace BL.Rentas
             if (producto.Precio < 0)
             {
                 resultado.Mensaje = "El precio debe ser mayor que cero";
+                resultado.Exitoso = false;
+            }
+
+            if (producto.TipoId == 0)
+            {
+                resultado.Mensaje = "Seleccione un Tipo";
                 resultado.Exitoso = false;
             }
 
@@ -99,6 +122,8 @@ namespace BL.Rentas
         public int Existencia { get; set; }
         public int CategoriaId { get; set; }
         public Categoria Categoria { get; set; }
+        public int TipoId { get; set; }
+        public Tipo Tipo { get; set; }
         public byte[] Foto { get; set; }
         public bool Activo { get; set; }
 
