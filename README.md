@@ -12,3 +12,4 @@ Video Tutoriales:
 
 https://www.youtube.com/watch?v=BJBdptgvYVA&list=PLApO8iXtRCMvqmDeAcwt3Lw9kR7jOeqEe&index=1
 
+[![Sistema Rentas](https://github.com/bilyfer/rentas/blob/master/promo.gif)](https://github.com/bilyfer/rentas/blob/master/promo.gif)
