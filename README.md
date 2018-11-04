@@ -1,6 +1,8 @@
 # Sistema de Rentas
 
-## Software necesario
+El sistema de Rentas es un proyecto para aprender las diferentes técnicas que ofrece Visual Studio .Net 2015 con su lenguaje de C# para aplicaciones de tipo WinForm. 
+
+## Software necesario para ejecutar el proyecto
 
 Descargue el Visual Studio 2015 Community con Update 3 y el Crystal Report para Visual Studio: 
 
