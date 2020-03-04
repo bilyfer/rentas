@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Win.Rentas", "Win.Rentas\Win.Rentas.csproj", "{0FA4BEFE-1BAF-4F10-A52A-97E04862F061}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rentas.Win", "Rentas.Win\Rentas.Win.csproj", "{07A8DDA5-0063-47D6-96D8-AE737291F5F4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BL.Rentas", "BL.Rentas\BL.Rentas.csproj", "{04879E3A-EBE5-40E6-92CA-58293B8D72EC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rentas.BL", "Rentas.BL\Rentas.BL.csproj", "{909420AA-014C-4E3A-9664-EAD3EDB846D9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,14 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{0FA4BEFE-1BAF-4F10-A52A-97E04862F061}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0FA4BEFE-1BAF-4F10-A52A-97E04862F061}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0FA4BEFE-1BAF-4F10-A52A-97E04862F061}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0FA4BEFE-1BAF-4F10-A52A-97E04862F061}.Release|Any CPU.Build.0 = Release|Any CPU
-		{04879E3A-EBE5-40E6-92CA-58293B8D72EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{04879E3A-EBE5-40E6-92CA-58293B8D72EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{04879E3A-EBE5-40E6-92CA-58293B8D72EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{04879E3A-EBE5-40E6-92CA-58293B8D72EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07A8DDA5-0063-47D6-96D8-AE737291F5F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07A8DDA5-0063-47D6-96D8-AE737291F5F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07A8DDA5-0063-47D6-96D8-AE737291F5F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07A8DDA5-0063-47D6-96D8-AE737291F5F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{909420AA-014C-4E3A-9664-EAD3EDB846D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{909420AA-014C-4E3A-9664-EAD3EDB846D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{909420AA-014C-4E3A-9664-EAD3EDB846D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{909420AA-014C-4E3A-9664-EAD3EDB846D9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
